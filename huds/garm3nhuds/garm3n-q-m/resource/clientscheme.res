@@ -6589,68 +6589,68 @@ Scheme
 		}
 		"7" 
 		{
-			"font" "resource/HANDGOTN.TTF"
-			"name" "HANDGOTN"
+			"font" "resource/fonts/HANDGOTN.TTF"
+			"name" "HandelGothic BT"
 		}			
 		"8" 
 		{
-			"font" "resource/symbol.ttf"
-			"name" "symbol"
+			"font" "resource/fonts/symbol.ttf"
+			"name" "Symbol"
 		}
 		"9" 
 		{
-			"font" "resource/boombox2.ttf"
-			"name" "boombox2"
+			"font" "resource/fonts/boombox2.ttf"
+			"name" "BoomBox 2"
 		}
 		"10" 
 		{
-			"font" "resource/BULLBA__0.TTF"
-			"name" "BULLBA__0"
+			"font" "resource/fonts/bullba__0.ttf"
+			"name" "BulletBalls AOE"
 		}
 		"11" 
 		{
-			"font" "resource/FORMASGE.ttf"
-			"name" "FORMASGE"
+			"font" "resource/fonts/formasge.ttf"
+			"name" "Formas germetricas 1"
 		}
 		"12" 
 		{
-			"font" "resource/m.ttf"
-			"name" "m"
+			"font" "resource/fonts/wibble.ttf"
+			"name" "Wibble"
 		}
 		"13" 
 		{
-			"font" "resource/Garm3nFont.ttf"
+			"font" "resource/fonts/garm3nfont.ttf"
 			"name" "Garm3nFont"
 		}
 		"14" 
 		{
-			"font" "resource/Paula.ttf"
+			"font" "resource/fonts/paula.ttf"
 			"name" "Paula"
 		}
 		"15" 
 		{
-			"font" "resource/PIZZADUDEBULLETS.ttf"
-			"name" "PIZZADUDEBULLETS"
+			"font" "resource/fonts/pizzadudebullets.ttf"
+			"name" "PizzaDude Bullets"
 		}
 		"16" 
 		{
-			"font" "resource/emoticons.ttf"
-			"name" "emoticons"
+			"font" "resource/fonts/emoticons.ttf"
+			"name" "Emoticons"
 		}
 		"17" 
 		{
-			"font" "resource/Arista2.0 light.ttf"
-			"name" "Arista2.0 light"
+			"font" "resource/fonts/arista2_light.ttf"
+			"name" "Arista 2.0 light"
 		}
 		"18" 
 		{
-			"font" "resource/heydings_icons.ttf"
-			"name" "heydings_icons"
+			"font" "resource/fonts/heydings_icons.ttf"
+			"name" "Heydings Icons"
 		}
 		"19" 
 		{
-			"font" "resource/MAC_DING.TTF"
-			"name" "MAC_DING"
+			"font" "resource/fonts/mac_ding.TTF"
+			"name" "Mac Dingbats"
 		}			
 	}
 }
