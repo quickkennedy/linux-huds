@@ -1,0 +1,4 @@
+made all files lowercase
+made main menu symbols render correctly on linux
+made advanced options wider so it doesnt get cut off on main menu
+added keybinds to navigate to class loadout menus
