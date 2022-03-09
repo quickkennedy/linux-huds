@@ -6256,23 +6256,23 @@ Scheme
 		}
 		"7"	//Main Font
 		{
-			"font" "resource/fonts/HANDGOTN.TTF"
-			"name" "HANDGOTN"
+			"font" "resource/fonts/handgotn.ttf"
+			"name" "handelGothic BT"
 		}
 		"8"	//Main Menu Font
 		{
 			"font" "resource/fonts/boombox2.ttf"
-			"name" "boombox2"
+			"name" "BoomBox 2"
 		}
 		"9"	//Clock, Flag etc... Icons
 		{
 			"font" "resource/fonts/heydings_icons.ttf"
-			"name" "heydings_icons"
+			"name" "Heydings Icons"
 		}
 		"10" //StickyIcon
 		{
-			"font" "resource/fonts/MAC_DING.TTF"
-			"name" "MAC_DING"
+			"font" "resource/fonts/mac_ding.TTF"
+			"name" "Mac Dingbats"
 		}
 	}
 }
