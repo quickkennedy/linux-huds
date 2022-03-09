@@ -587,7 +587,8 @@ Scheme
 			"1"
 			{
 				"name"			"Entypo"
-				"tall"		"25"
+				"tall"		"25" [$WINDOWS]
+				"tall"		"16" [$LINUX]
 				"additive"	"0"
 				"antialias" 	"1"
 			}
@@ -8472,67 +8473,67 @@ Scheme
 		}
 		"8" 
 		{
-			"font" "resource/fonts/AvenirLTStd-Black.ttf"
+			"font" "resource/fonts/avenirltstd-black.ttf"
 			"name" "AvenirLTStd-Black"
 		}
 		"9" 
 		{
-            "font" "resource/fonts/AvenirLTStd-Heavy.otf"
+            "font" "resource/fonts/avenirltstd-heavy.otf"
 			"name" "AvenirLTStd-Heavy"
 		}	
 		"10" 
 		{
-			"font" "resource/fonts/AvenirLTStd-Medium.otf"
+			"font" "resource/fonts/avenirltstd-medium.otf"
 			"name" "AvenirLTStd-Medium"
 		}		
 		"11" 
 		{
-            "font" "resource/fonts/AvenirLTStd-Book.otf"
+            "font" "resource/fonts/avenirltstd-book.otf"
 			"name" "AvenirLTStd-Book"
 		}
 		"12"
 		{
-			"font" "resource/fonts/Blocks.ttf"
+			"font" "resource/fonts/blocks.ttf"
 			"name" "Blocks"
 		}
 		"13" 
 		{
-			"font" "resource/fonts/LightNumbers.ttf"
+			"font" "resource/fonts/lightnumbers.ttf"
 			"name" "LightNumbers"
 		}
 		"14" 
 		{
-			"font" "resource/fonts/MediumNumbers.ttf"
+			"font" "resource/fonts/mediumnumbers.ttf"
 			"name" "MediumNumbers"
 		}
 		"15" 
 		{
-			"font" "resource/fonts/BoldNumbers.ttf"
+			"font" "resource/fonts/boldnumbers.ttf"
 			"name" "BoldNumbers"    
 		}
         "16" 
 		{
-			"font" "resource/fonts/Novecentowide-Book.otf"
+			"font" "resource/fonts/novecentowide-book.otf"
 			"name" "Novecentowide-Book"  
 		}
         "17" 
 		{
-			"font" "resource/fonts/NovecentoMedium.ttf"
-			"name" "NovecentoMedium"  
+			"font" "resource/fonts/novecentomedium.ttf"
+			"name" "novecentomedium"
 		}
         "18" 
 		{
-			"font" "resource/fonts/HeavyCaps.ttf"
+			"font" "resource/fonts/heavycaps.ttf"
 			"name" "HeavyCaps"  
 		}
 		"19"
 		{
-			"font" "resource/fonts/Entypo.otf"
+			"font" "resource/fonts/entypo.otf"
 			"name" "Entypo"
 		}
 		"20"
 		{
-			"font" "resource/fonts/Paula.ttf"
+			"font" "resource/fonts/paula.ttf"
 			"name" "Paula"
 		}
 	}
