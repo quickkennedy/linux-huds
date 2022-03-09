@@ -19,10 +19,10 @@ Garm3n Rex
 Garm3n SDX 2013
 Garm3n TanLight
 Garm3n TF2
-
-untested:
-
 Garm3n VIP-Konr
 Garm3n VIP-Quad
 Garm3n VIP-SL
+
+untested:
+
 Garm3n VIP-Stefan
