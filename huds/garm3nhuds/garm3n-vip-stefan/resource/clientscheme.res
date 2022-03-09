@@ -6685,67 +6685,67 @@ Scheme
 		}
 		"7" 
 		{
-			"font" "resource/Yearbook Solid.ttf"
+			"font" "resource/fonts/yearbook solid.ttf"
 			"name" "Yearbook Solid"
 		}			
 		"8" 
 		{
-			"font" "resource/symbol.ttf"
-			"name" "symbol"
+			"font" "resource/fonts/symbol.ttf"
+			"name" "Symbol"
 		}
 		"9" 
 		{
-			"font" "resource/BULLBA__0.TTF"
-			"name" "BULLBA__0"
+			"font" "resource/fonts/bullba__0.ttf"
+			"name" "BulletBalls AOE"
 		}
 		"10" 
 		{
-			"font" "resource/FORMASGE.ttf"
-			"name" "FORMASGE"
+			"font" "resource/fonts/formasge.ttf"
+			"name" "Formas germetricas 1"
 		}
 		"11" 
 		{
-			"font" "resource/m.ttf"
-			"name" "m"
+			"font" "resource/fonts/wibble.ttf"
+			"name" "Wibble"
 		}
 		"12" 
 		{
-			"font" "resource/Garm3nFont.ttf"
+			"font" "resource/fonts/garm3nfont.ttf"
 			"name" "Garm3nFont"
 		}
 		"13" 
 		{
-			"font" "resource/Paula.ttf"
+			"font" "resource/fonts/paula.ttf"
 			"name" "Paula"
 		}
 		"14" 
 		{
-			"font" "resource/PIZZADUDEBULLETS.ttf"
-			"name" "PIZZADUDEBULLETS"
+			"font" "resource/fonts/pizzadudebullets.ttf"
+			"name" "PizzaDude Bullets"
 		}
 		"15" 
 		{
-			"font" "resource/emoticons.ttf"
-			"name" "emoticons"
+			"font" "resource/fonts/emoticons.ttf"
+			"name" "Emoticons"
 		}
 		"16" 
 		{
-			"font" "resource/Arista2.0 light.ttf"
-			"name" "Arista2.0 light"
+			"font" "resource/fonts/arista2light.ttf"
+			"name" "Arista 2.0 light"
 		}
 		"17" 
 		{
-			"font" "resource/heydings_icons.ttf"
-			"name" "heydings_icons"
+			"font" "resource/fonts/heydings_icons.ttf"
+			"name" "Heydings Icons"
 		}
 		"18" 
 		{
-			"font" "resource/MAC_DING.TTF"
-			"name" "MAC_DING"
+			"font" "resource/fonts/mac_ding.ttf"
+			"name" "Mac Dingbats"
 		}
 		"19" 
 		{
-			"font" "resource/Retro Mono Wide.ttf"
+			"font" "resource/fonts/retro mono wide.ttf"
 			"name" "Retro Mono Wide"
 		}			
 	}
