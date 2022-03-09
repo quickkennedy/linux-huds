@@ -594,7 +594,8 @@ Scheme
 			"1"
 			{
 				"name"			"Entypo"
-				"tall"		"25"
+				"tall"		"25" [$WINDOWS]
+				"tall"		"16" [$LINUX]
 				"additive"	"0"
 				"antialias" 	"1"
 			}
@@ -8496,67 +8497,67 @@ Scheme
 		}
 		"11"
 		{
-			"font" "resource/fonts/Paula.ttf"
+			"font" "resource/fonts/paula.ttf"
 			"name" "Paula"
 		}
 		"12"
 		{
-			"font" "resource/fonts/AvenirLTStd-Black.ttf"
+			"font" "resource/fonts/avenirltstd-black.ttf"
 			"name" "AvenirLTStd-Black"
 		}
 		"13"
 		{
-            "font" "resource/fonts/AvenirLTStd-Heavy.otf"
+            "font" "resource/fonts/avenirltstd-heavy.otf"
 			"name" "AvenirLTStd-Heavy"
 		}	
 		"14"
 		{
-			"font" "resource/fonts/AvenirLTStd-Medium.otf"
+			"font" "resource/fonts/avenirltstd-medium.otf"
 			"name" "AvenirLTStd-Medium"
 		}		
 		"15"
 		{
-            "font" "resource/fonts/AvenirLTStd-Book.otf"
+            "font" "resource/fonts/avenirltstd-book.otf"
 			"name" "AvenirLTStd-Book"
 		}
 		"16"
 		{
-			"font" "resource/fonts/Blocks.ttf"
+			"font" "resource/fonts/blocks.ttf"
 			"name" "Blocks"
 		}	
 		"17"
 		{
-			"font" "resource/fonts/Entypo.otf"
+			"font" "resource/fonts/entypo.otf"
 			"name" "Entypo"
 		}
         "18"
 		{
-			"font" "resource/fonts/LightNumbers.ttf"
+			"font" "resource/fonts/lightnumbers.ttf"
 			"name" "LightNumbers"
 		}
 		"19"
 		{
-			"font" "resource/fonts/MediumNumbers.ttf"
+			"font" "resource/fonts/mediumnumbers.ttf"
 			"name" "MediumNumbers"
 		}
 		"20"
 		{
-			"font" "resource/fonts/BoldNumbers.ttf"
+			"font" "resource/fonts/boldnumbers.ttf"
 			"name" "BoldNumbers"    
 		}
         "21"
 		{
-			"font" "resource/fonts/Novecentowide-Book.otf"
+			"font" "resource/fonts/novecentowide-book.otf"
 			"name" "Novecentowide-Book"  
 		}
         "22"
 		{
-			"font" "resource/fonts/NovecentoMedium.ttf"
+			"font" "resource/fonts/novecentomedium.ttf"
 			"name" "NovecentoMedium"  
 		}
         "23"
 		{
-			"font" "resource/fonts/HeavyCaps.ttf"
+			"font" "resource/fonts/heavycaps.ttf"
 			"name" "HeavyCaps"  
 		}
 	}
