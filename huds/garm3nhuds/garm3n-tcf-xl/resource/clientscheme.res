@@ -6329,68 +6329,68 @@ Scheme
 		}
 		"7" 
 		{
-			"font" "resource/cs_regular.ttf"
-			"name" "cs_regular"
+			"font" "resource/fonts/cs_regular.ttf"
+			"name" "Counter-Strike"
 		}			
 		"8" 
 		{
-			"font" "resource/symbol.ttf"
-			"name" "symbol"
+			"font" "resource/fonts/symbol.ttf"
+			"name" "Symbol"
 		}
 		"9" 
 		{
-			"font" "resource/Soldier.ttf"
+			"font" "resource/fonts/soldier.ttf"
 			"name" "Soldier"
 		}
 		"10" 
 		{
-			"font" "resource/boombox2.ttf"
-			"name" "boombox2"
+			"font" "resource/fonts/boombox2.ttf"
+			"name" "BoomBox 2"
 		}
 		"11" 
 		{
-			"font" "resource/montalban.ttf"
-			"name" "montalban"
+			"font" "resource/fonts/montalban.ttf"
+			"name" "Montalban"
 		}
 		"12" 
 		{
-			"font" "resource/BULLBA__0.TTF"
-			"name" "BULLBA__0"
+			"font" "resource/fonts/bullba__0.ttf"
+			"name" "BulletBalls AOE"
 		}
 		"13" 
 		{
-			"font" "resource/FORMASGE.ttf"
-			"name" "FORMASGE"
+			"font" "resource/fonts/formasge.ttf"
+			"name" "Formas germetricas 1"
 		}
 		"14" 
 		{
-			"font" "resource/m.ttf"
-			"name" "m"
+			"font" "resource/fonts/wibble.ttf"
+			"name" "Wibble"
 		}
 		"15" 
 		{
-			"font" "resource/Garm3nFont.ttf"
+			"font" "resource/fonts/garm3nfont.ttf"
 			"name" "Garm3nFont"
 		}
 		"16" 
 		{
-			"font" "resource/Paula.ttf"
+			"font" "resource/fonts/paula.ttf"
 			"name" "Paula"
 		}
 		"17" 
 		{
-			"font" "resource/PIZZADUDEBULLETS.ttf"
-			"name" "PIZZADUDEBULLETS"
+			"font" "resource/fonts/pizzadudebullets.ttf"
+			"name" "PizzaDude Bullets"
 		}
 		"18" 
 		{
-			"font" "resource/emoticons.ttf"
-			"name" "emoticons"
+			"font" "resource/fonts/emoticons.ttf"
+			"name" "Emoticons"
 		}
 		"19" 
 		{
-			"font" "resource/Arista2.0 light.ttf"
-			"name" "Arista2.0 light"
+			"font" "resource/fonts/arista2light.ttf"
+			"name" "Arista 2.0 light"
 		}			
 	}
 }
