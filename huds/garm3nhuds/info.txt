@@ -13,13 +13,13 @@ Garm3n 4MP
 Garm3n 7MF
 Garm3n 8MG
 Garm3n OLX
-
-untested:
-
 Garm3n Rex
 Garm3n SDX 2013
 Garm3n TanLight
-Garm3n TCF-XL
+
+untested:
+
+>>>>Garm3n TCF-XL
 Garm3n TF2
 Garm3n VIP-Beavern
 Garm3n VIP-Konr
