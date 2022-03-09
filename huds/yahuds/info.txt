@@ -1,5 +1,11 @@
 taken from https://huds.tf/site/s-Yahuds
 
+fixed:
+
+yahud-5md
+yahud-cmyk
+yayahud
+
 already working:
 
 yahud old
