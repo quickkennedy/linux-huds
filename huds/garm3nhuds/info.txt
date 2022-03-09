@@ -6,6 +6,7 @@ Garm3n Q-M
 Garm3n QL
 Garm3n QL-Edit
 Garm3n R-B
+Garm3n TCF-XL
 
 already working:
 
@@ -16,12 +17,11 @@ Garm3n OLX
 Garm3n Rex
 Garm3n SDX 2013
 Garm3n TanLight
+Garm3n TF2
 
 untested:
 
->>>>Garm3n TCF-XL
-Garm3n TF2
-Garm3n VIP-Beavern
+>>>Garm3n VIP-Beavern
 Garm3n VIP-Konr
 Garm3n VIP-Quad
 Garm3n VIP-SL
