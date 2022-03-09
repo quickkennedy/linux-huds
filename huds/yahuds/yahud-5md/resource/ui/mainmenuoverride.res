@@ -497,7 +497,8 @@
 			"labelText"		"S"
 			"font"			"SymbolS"
 			"textAlignment"	"center"
-			"textinsety"	"-11"
+			"textinsety"	"-11"	[$WINDOWS]
+			"use_proportional_insets"	"1" [$LINUX]
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
@@ -990,7 +991,8 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"t"
-			"textinsety"	"-11"
+			"textinsety"	"-11"	[$WINDOWS]
+			"use_proportional_insets"	"1" [$LINUX]
 			"font"			"Symbols"
 			"textAlignment"	"center"
 			"dulltext"		"0"
@@ -1420,7 +1422,7 @@
 		"xpos"			"0"
 		"ypos"			"348"
 		"zpos"			"15"
-		"wide"			"300"
+		"wide"			"400"
 		"tall"			"48"
 		"visible"		"1"
 		"PaintBackgroundType"	"0"
@@ -1432,7 +1434,7 @@
 			"fieldName"		"SubButton"
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"300"
+			"wide"			"400"
 			"tall"			"48"
 			"autoResize"	"0"
 			"pinCorner"		"3"
@@ -1855,7 +1857,8 @@
 			"labelText"		"D"
 			"font"			"SymbolS"
 			"textAlignment"	"center"
-			"textinsety"	"-11"
+			"textinsety"	"-11"	[$WINDOWS]
+			"use_proportional_insets"	"1" [$LINUX]
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
@@ -1938,7 +1941,8 @@
 			"labelText"		"s"
 			"font"			"SymbolS"
 			"textAlignment"	"center"
-			"textinsety"	"-11"
+			"textinsety"	"-11"	[$WINDOWS]
+			"use_proportional_insets"	"1" [$LINUX]
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
