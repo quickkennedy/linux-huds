@@ -7,6 +7,7 @@ Garm3n QL
 Garm3n QL-Edit
 Garm3n R-B
 Garm3n TCF-XL
+Garm3n VIP-Beavern
 
 already working:
 
@@ -21,7 +22,6 @@ Garm3n TF2
 
 untested:
 
->>>Garm3n VIP-Beavern
 Garm3n VIP-Konr
 Garm3n VIP-Quad
 Garm3n VIP-SL
