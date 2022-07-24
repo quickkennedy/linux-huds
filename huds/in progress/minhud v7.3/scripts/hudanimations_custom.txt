@@ -1,0 +1,219 @@
+//Health Bonus Pulse
+event HudHealthBonusPulse
+{
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0 0
+	Animate PlayerStatusHealthValue			FgColor		"minBlue"	Linear	0 0
+	Animate PlayerStatusHealthValue2		FgColor		"minBlue"	Linear	0 0
+	Animate	HealthIndicator 				fgColor		"minBlue"	Linear 0 0
+	Animate PlayerStatusHealthValueBG		fgColor		"minBlue"	Linear 0 0
+	
+	RunEvent HudHealthBonusPulseLoop	0.4
+}
+
+// call to loop HudHealthBonusPulse
+event HudHealthBonusPulseLoop
+{
+	RunEvent HudHealthBonusPulse 0.0
+}
+
+event HudHealthBonusPulseStop
+{
+	StopEvent HudHealthBonusPulse 0.0
+	StopEvent HudHealthBonusPulseLoop 0.0
+}
+
+//===========================================
+
+//Health Dying Pulse
+event HudHealthDyingPulse
+{
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.075
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.125 0.075
+	Animate PlayerStatusHealthValue			FgColor		"minOrange"	Linear	0 0
+	Animate PlayerStatusHealthValue2		FgColor		"minOrange"	Linear	0 0
+	Animate	HealthIndicator 				fgColor		"minOrange"	Linear 0 0
+	Animate PlayerStatusHealthValueBG		fgColor		"minOrange"	Linear 0 0
+	
+	RunEvent HudHealthDyingPulseLoop	0.25
+	
+}
+
+// call to loop HudHealthDyingPulse
+event HudHealthDyingPulseLoop
+{
+	RunEvent HudHealthDyingPulse 0.0
+}
+
+event HudHealthDyingPulseStop
+{
+	StopEvent HudHealthDyingPulse 0.0
+	StopEvent HudHealthDyingPulseLoop 0.0
+	
+	Animate PlayerStatusHealthValue			FgColor		"minWhite"	Linear	0 0
+	Animate PlayerStatusHealthValue2		FgColor		"minWhite"	Linear	0 0
+	Animate	HealthIndicator 				fgColor		"minWhite"	Linear 0 0
+	Animate PlayerStatusHealthValueBG		fgColor		"minGray"	Linear 0 0
+}
+
+//===========================================
+//Low Ammo Pulse
+event HudLowAmmoPulse
+{
+	Animate AmmoInClip		FgColor		"minOrange"		Linear 0 0
+	Animate AmmoInReserve	FgColor		"minOrange"		Linear 0 0
+	Animate AmmoNoClip		FgColor		"minOrange"		Linear 0 0
+
+	RunEvent HudLowAmmoPulseLoop 0.25
+}
+
+// call to loop HudLowAmmoPulse
+event HudLowAmmoPulseLoop
+{
+	RunEvent HudLowAmmoPulse 0.0
+}
+
+event HudLowAmmoPulseStop
+{
+	StopEvent HudLowAmmoPulse 0.0
+	StopEvent HudLowAmmoPulseLoop 0.0
+
+	Animate	AmmoInClip		FgColor		"minWhite"		Linear 0 0
+	Animate	AmmoInReserve	FgColor		"minWhite"		Linear 0 0
+	Animate AmmoNoClip		FgColor		"minWhite"		Linear 0 0
+}
+
+// Flash the medic charge hud when we have full charge
+
+event HudMedicCharged
+{
+	Animate	ChargeLabel 	FgColor		"minBlue"		Linear 0 0
+	
+	Animate	ChargeMeter 	FgColor		"minBlue"		Linear 0 0
+
+	RunEvent HudMedicChargedLoop	0.6
+}
+
+event TeamStatus_PlayerDead
+{
+	SetVisible respawntime  1 0
+}
+
+event TeamStatus_PlayerAlive
+{
+	SetVisible respawntime 0 0
+}
+
+//===========================================
+event MenuOpen
+{
+	StopEvent	MenuClose 0.0 
+
+	// fade in
+	Animate HudMenu Alpha 		"255"		Linear 0.0 0.1
+	Animate HudMenu SelectionAlpha 	"255"		Linear 0.0 0.1
+	Animate HudMenu FgColor		"FgColor"		Linear 0.0 0.1
+	Animate HudMenu MenuColor		"MenuColor"	Linear  0.0 0.1
+	Animate HudMenu ItemColor		"ItemColor"	Linear 0.0 0.1
+	Animate HudMenu TextScan		"1"		Linear 0.0 0.1
+
+	// Undo any blur
+	Animate HudMenu		Blur		"1"			Linear	0.0		0.01
+	RunEvent ClearPackCount 0.0
+}
+
+event MenuClose
+{	
+	// Hide it
+	Animate HudMenu Alpha 		"0" Linear 0.0 1
+	Animate HudMenu SelectionAlpha 	"0" Linear 0.0 1
+	Animate HudMenu FgColor		"0 0 0 0" Linear 0.0 1
+	Animate HudMenu MenuColor		"0 0 0 0" Linear 0.0 1
+	Animate HudMenu ItemColor		"0 0 0 0" Linear 0.0 1
+	RunEvent PackCount 0.0
+}
+event MenuPulse
+{
+	Animate HudMenu		Blur		"7"			Linear	0.0		0.1
+	Animate HudMenu		Blur		"2"			Deaccel	0.1		0.1
+	Animate HudMenu		Blur		"7"			Linear	0.2		0.1
+	Animate HudMenu		Blur		"2"			Deaccel	0.3		0.1
+	Animate HudMenu		Blur		"7"			Linear	0.4		0.1
+	Animate HudMenu		Blur		"2"			Deaccel	0.5		0.1
+	Animate	HudMenu		Blur		"1"			Deaccel	0.6		0.4
+	RunEvent ClearPackCount 0.0
+}
+event PackCount
+{
+ Animate PackCounter10 xpos 	"c-35" 			Linear 0 0
+ Animate PackCounter10 xpos 	"9999" 			Linear 1 0
+ Animate PackCounter9 xpos 		"c-35" 			Linear 1 0
+ Animate PackCounter9 xpos 		"9999" 			Linear 2 0
+ Animate PackCounter8 xpos 		"c-35" 			Linear 2 0
+ Animate PackCounter8 xpos 		"9999" 			Linear 3 0
+ Animate PackCounter7 xpos 		"c-35" 			Linear 3 0
+ Animate PackCounter7 xpos 		"9999" 			Linear 4 0
+ Animate PackCounter6 xpos 		"c-35" 			Linear 4 0
+ Animate PackCounter6 xpos 		"9999" 			Linear 5 0
+ Animate PackCounter5 xpos 		"c-35" 			Linear 5 0
+ Animate PackCounter5 xpos 		"9999" 			Linear 6 0
+ Animate PackCounter4 xpos 		"c-35" 			Linear 6 0
+ Animate PackCounter4 xpos 		"9999" 			Linear 7 0
+ Animate PackCounter3 xpos 		"c-35" 			Linear 7 0
+ Animate PackCounter3 xpos 		"9999" 			Linear 8 0
+ Animate PackCounter2 xpos 		"c-35" 			Linear 8 0
+ Animate PackCounter2 xpos 		"9999" 			Linear 9 0
+ Animate PackCounter1 xpos 		"c-35" 			Linear 9 0
+ Animate PackCounter1 xpos 		"9999" 			Linear 10 0
+
+}
+
+event ClearPackCount
+{
+ Animate PackCounter10 xpos 		"9999" 		Linear 0 0
+ Animate PackCounter9 xpos 		"9999" 			Linear 0 0
+ Animate PackCounter8 xpos 		"9999" 			Linear 0 0
+ Animate PackCounter7 xpos 		"9999" 			Linear 0 0
+ Animate PackCounter6 xpos 		"9999" 			Linear 0 0
+ Animate PackCounter5 xpos 		"9999" 			Linear 0 0
+ Animate PackCounter4 xpos 		"9999" 			Linear 0 0
+ Animate PackCounter3 xpos 		"9999" 			Linear 0 0
+ Animate PackCounter2 xpos 		"9999" 			Linear 0 0
+ Animate PackCounter1 xpos 		"9999" 			Linear 0 0
+ stopevent PackCount
+}
+
+//===========================================
+
+event DamagedPlayer
+{
+	Animate	LeftKonrWing	FgColor	"0 255 255 255"		Linear 0 0
+	Animate	LeftKonrWing	FgColor	"255 255 255 255"		Linear 0.7 0
+}
+
+event HudTournamentSetupPanelOpen
+{
+	Animate HudTournamentSetup	Position	"c-34 -70"	Linear 0.0 0.001
+	Animate HudTournamentSetup	Position	"c-34 70"	Spline 0.001 0.2
+}
+
+event HudTournamentSetupPanelClose
+{
+	Animate HudTournamentSetup	Position	"c-34 70"	Linear 0.0 0.001
+	Animate HudTournamentSetup	Position	"c-34 -70"	Spline 0.001 0.2
+}
+
+// Active Timer BG Pulse
+event ActiveTimerBGPulse
+{
+	Animate ActiveTimerBG		Position	"-300 -200"	Linear 0 0
+}
+
+event ActiveTimerHighlight
+{
+	Animate ActiveTimerBG		Position	"-200 -300"	Linear 0 0
+}
+
+event ActiveTimerDim
+{
+	Animate ActiveTimerBG		Position	"-400 -100"	Linear 0 0
+}
